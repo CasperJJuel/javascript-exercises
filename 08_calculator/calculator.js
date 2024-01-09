@@ -12,6 +12,9 @@ const sum = function(number) {
     inSum += elem
   });
   return inSum
+
+  //Could also use
+  //return array.reduce((total, current) => total + current, 0);
 };
 
 const multiply = function(number) {
@@ -20,6 +23,8 @@ const multiply = function(number) {
     inSum *= elem
   });
   return inSum
+  //Could also use
+  //return array.reduce((product, current) => product * current)
 };
 
 const power = function(aP, bP) {
